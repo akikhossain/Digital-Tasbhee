@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Count</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <div class="border p-4 mt-32 lg:mt-[10%] lg:w-[500px] lg:ml-[35%]">
+      <h1 class="text-3xl text-center mt-5 font-bold">
+        Welcome to Digital Tasbhee
+      </h1>
+      <div class="text-center">
+        <h1 id="click-zero" class="my-5 text-3xl font-bold">0</h1>
+        <button
+          onclick="clickMe()"
+          id="plus-button"
+          class="bg-blue-500 px-4 py-2 w-[80px] text-3xl font-bold rounded"
+        >
+          +
+        </button>
+        <button
+          id="minus-button"
+          class="bg-red-500 px-4 py-2 text-3xl font-bold rounded"
+        >
+          Reset
+        </button>
+      </div>
+    </div>
+    <script src="count.js"></script>
+  </body>
+</html>
